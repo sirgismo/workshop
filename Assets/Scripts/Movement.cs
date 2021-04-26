@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    
     enum State { onWall ,onGround, onAir }
     [SerializeField] int power;
     Rigidbody _rigidbody;
